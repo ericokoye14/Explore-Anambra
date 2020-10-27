@@ -1,0 +1,61 @@
+body{
+    background-image: url(./main2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    margin: 0;
+    
+}
+
+
+#container{
+    background-color: white; 
+    margin-top: 1rem;
+    margin-left: 3rem;
+    border-style: solid;
+    border-radius: 1rem;
+    width: 13rem;
+    height: 28rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-top: 2rem;
+}
+
+#head{
+    background-color: white;
+    border-style: solid;
+    border-radius: 1rem;
+    height: 7rem;
+}
+
+h1{
+    margin-top: 2rem;
+    padding-left: 5rem;
+}
+#search{
+    margin-left: 65rem;
+    border-radius: 1rem;
+    height: 50px;
+    width: 200px;
+    border: solid;
+
+}
+
+#hotels, #hospitals, #schools, #police, #gas{
+    margin: 1rem;
+    width: 200px;
+    height: 50px;
+    background-color: wheat;
+    font-size: medium;
+    border-radius: 1rem;
+    margin-left: 0rem;
+}
+
+#hotels:focus, #hospitals:focus, #schools:focus, #police:focus, #gas:focus{
+    outline: none !important;
+}
+
+#search:focus{
+    outline: none !important;
+}

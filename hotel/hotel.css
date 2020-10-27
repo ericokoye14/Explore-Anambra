@@ -1,0 +1,70 @@
+body{
+    background-image: url(./pexels-photo-271639.jpeg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    
+}
+
+
+#container{
+    background-color: white; 
+    margin-top: 1rem;
+    border-style: solid;
+    border-radius: 1rem;
+    width: 17rem;
+    height: 30rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 2rem;
+}
+
+#head{
+    background-color: white;
+    border-style: solid;
+    border-radius: 1rem;
+    height: 7rem;
+}
+
+h1{
+    color: blueviolet;
+    margin-top: 2rem;
+    padding-left: 5rem;
+}
+
+#search{
+    margin-left: 65rem;
+    border-radius: 1rem;
+    height: 50px;
+    width: 200px;
+    border: solid;
+
+}
+#search:focus{
+    outline: none !important;
+}
+
+#hot1, #hot2,#hot3, #hot4, #hot5, #hot6{
+    margin-top: 3rem;
+    border-style: solid;
+    height: 160px;
+    width: 260px;
+    margin-left: 7rem;
+    border-radius: 1rem;
+}
+
+#cont{
+    display: inline;
+}
+
+h4{
+    margin-top: 1rem;
+    padding-left: 11.5rem;
+    font-size: large;
+}
+.nav li{
+    display: inline-block;
+}
+
+#hot1{
+    background-image: url(./cosmillla.webp);
+}
