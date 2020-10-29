@@ -46,9 +46,9 @@ h1{
 #hot1, #hot2,#hot3, #hot4, #hot5, #hot6{
     margin-top: 3rem;
     border-style: solid;
-    height: 160px;
-    width: 260px;
-    margin-left: 7rem;
+    height: 200px;
+    width: 300px;
+    margin-left: 5rem;
     border-radius: 1rem;
 }
 
@@ -56,9 +56,39 @@ h1{
     display: inline;
 }
 
-h4{
+#Hotel1{
+    padding-left: 9rem;
     margin-top: 1rem;
-    padding-left: 11.5rem;
+    font-size: large;
+}
+
+#Hotel2{
+    padding-left: 10rem;
+    margin-top: 1rem;
+    font-size: large;
+}
+
+#Hotel3{
+    padding-left: 10rem;
+    margin-top: 1rem;
+    font-size: large;
+}
+
+#Hotel4{
+    padding-left: 10rem;
+    margin-top: 1rem;
+    font-size: large;
+}
+
+#Hotel5{
+    padding-left: 10rem;
+    margin-top: 1rem;
+    font-size: large;
+}
+
+#Hotel6{
+    padding-left: 10rem;
+    margin-top: 1rem;
     font-size: large;
 }
 .nav li{
@@ -66,5 +96,36 @@ h4{
 }
 
 #hot1{
-    background-image: url(./cosmillla.webp);
+    background-image: url(./hotels/belvedereResort1.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#hot2{
+    background-image: url(./hotels/bonhotel.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#hot3{
+    background-image: url(./hotels/cihcotel.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#hot4{
+    background-image: url(./hotels/cosmillla.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#hot5:hover{
+    transform: scale(1.5);
+    background-image: url(./hotels/cresentspring.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#hot6{
+    background-image: url(./hotels/degeogold.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
