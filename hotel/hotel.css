@@ -117,15 +117,17 @@ h1{
     background-repeat: no-repeat;
     background-position: center center;
 }
-#hot5:hover{
-    transform: scale(1.5);
+#hot5{
     background-image: url(./hotels/cresentspring.webp);
     background-repeat: no-repeat;
     background-position: center center;
 }
-
 #hot6{
     background-image: url(./hotels/degeogold.webp);
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+#hot1:hover, #hot2:hover, #hot3:hover, #hot4:hover, #hot5:hover, #hot6:hover{
+    transform: scale(1.5);
 }
