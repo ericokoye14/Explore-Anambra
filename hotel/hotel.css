@@ -1,8 +1,9 @@
 body{
-    background-image: url(./pexels-photo-271639.jpeg);
+    /* background-image: url(./wallpaper//pexels-photo-271639.jpeg); */
+    /* background-size: cover; */
+    position: center;
     background-repeat: no-repeat;
-    background-size: 500px;
-    
+    /* background-size: 500px; */   
 }
 
 
