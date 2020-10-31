@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 #head{
     background-color: white;
     border-style: solid;
@@ -12,10 +18,17 @@ h1{
 #container{
     margin-top: 5rem;
     margin-left: 5rem;
-    border-style: solid;
-    border-radius: 1rem;
+    /* border-style: solid; */
+    border-radius: 20px;
     width: 500px;
     height: 400px;
+}
+
+#container img{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.8);
 }
 
 #container2{
