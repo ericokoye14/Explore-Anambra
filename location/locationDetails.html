@@ -14,24 +14,34 @@
 
 
     <div id="container">
-        <h3>
-            img:src 
-        </h3>
+			<span id="hImg"></span>
     </div>
 
     <div id="container2">
+			<h4 id="name">Name: </h4>
+			<h4 id="Location">Location :</h4>
+			<h4 id="Customer">Customer service:</h4>
+			<h4 id="Email">Email :</h4>
+			<h4 id="Address">Address:</h4>
 
-        <h4 id="name">Name :</h4>
-        <h4 id="Location">Location :</h4>
-        <h4 id="Customer">Customer service:</h4>
-        <h4 id="Email">Email :</h4>
-        <h4 id="Address">Address:</h4>
 
-
-        <form method="GET" action="">
-            <button id="btn1" onclick="">Get Direction</button>
-        </form>
-
+			<form method="GET" action="">
+					<button id="btn1" onclick="">Get Direction</button>
+			</form>
     </div>
+
+    <script>
+			var queryString = window.location.search;
+			var urlParams = new URLSearchParams(queryString);
+
+			let imgUrl = urlParams.get('imgUrl');
+			let hotelName = urlParams.get('hotel');
+
+			let hName = document.getElementById("name");
+			let hImg = document.getElementById("hImg");
+
+			hName.innerHTML += hotelName;
+			hImg.innerHTML = `<img src=../hotel/${imgUrl}>`
+    </script>
 </body>
 </html>
