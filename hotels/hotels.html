@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Directions</title>
+  <link rel="stylesheet" href="./hotels.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxy/1.6.1/scripts/jquery.ajaxy.js" integrity="sha512-4WpSQe8XU6Djt8IPJMGD9Xx9KuYsVCEeitZfMhPi8xdYlVA5hzRitm0Nt1g2AZFS136s29Nq4E4NVvouVAVrBw==" crossorigin="anonymous"></script>
+</head>
+<body>
+  <center>
+    <h1>HOTELS</h1>
+  </center>
+  
+  <div id="wrap">
+    
+  </div>
+  <script>
+    $(document).ready(function(){
+      var folder = "images";
+
+      // $.ajax({
+      //     url : folder,
+      //     success: function (data) {
+      //         $(data).find("a").attr("href", function (i, val) {
+      //             if( val.match(/\.(jpe?g|png|gif|webp)$/) ) { 
+      //                 $("body").append( "<img src='"+ folder + val +"'>" );
+      //             } 
+      //         });
+      //     }
+      // });
+
+      $.ajax({
+          url : folder,
+          success: function (data) {
+              $(data).find("a").attr("href", function (i, val) {
+                  if( val.match(/\.(jpe?g|png|gif|webp)$/) ) { 
+                      $("#wrap").append( "<a href='#'><img class='hotels' src='" + val +"'></a>" );
+                  } 
+              });
+          }
+      });
+    });
+  </script>
+</body>
+</html>
