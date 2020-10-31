@@ -1,8 +1,9 @@
 body{
-    background-image: url(./pexels-photo-271639.jpeg);
+    /* background-image: url(./wallpaper//pexels-photo-271639.jpeg); */
+    /* background-size: cover; */
+    position: center;
     background-repeat: no-repeat;
-    background-size: 500px;
-    
+    /* background-size: 500px; */   
 }
 
 
@@ -96,38 +97,39 @@ h1{
 }
 
 #hot1{
-    background-image: url(./hotels/belvedereResort1.webp);
+    background-image: url("./hotelsnapshots/belvedereResort.webp");
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #hot2{
-    background-image: url(./hotels/bonhotel.webp);
+    background-image: url("./hotelsnapshots/bonhotel.webp");
     background-repeat: no-repeat;
     background-position: center center;
 }
 #hot3{
-    background-image: url(./hotels/cihcotel.webp);
+    background-image: url("./hotelsnapshots/cihcotel.webp");
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #hot4{
-    background-image: url(./hotels/cosmillla.webp);
+    background-image: url("./hotelsnapshots/cosmillla.webp");
     background-repeat: no-repeat;
     background-position: center center;
 }
 #hot5{
-    background-image: url(./hotels/cresentspring.webp);
+    background-image: url("./hotelsnapshots/cresentspring.webp");
     background-repeat: no-repeat;
     background-position: center center;
 }
 #hot6{
-    background-image: url(./hotels/degeogold.webp);
+    background-image: url("./hotelsnapshots/degeogold.webp");
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #hot1:hover, #hot2:hover, #hot3:hover, #hot4:hover, #hot5:hover, #hot6:hover{
     transform: scale(1.5);
+    transition-duration: 1s;
 }
